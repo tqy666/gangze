@@ -13,4 +13,8 @@
 
 Route::get('/', function () {
     return view('welcome');
+
 });
+
+
+Route::get('test', 'V1\TextController@test');
